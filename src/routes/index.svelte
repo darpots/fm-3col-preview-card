@@ -7,7 +7,7 @@
 	<title>Preview Card</title>
 </svelte:head>
 
-<div class="container">
+<main class="container">
 	<Card
 		image="/icon-sedans.svg"
 		alt="sedan"
@@ -32,7 +32,7 @@
 		buttonText="learn more"
 		bgcolor="darkCyan"
 	/>
-</div>
+</main>
 
 <style>
 	.container {
