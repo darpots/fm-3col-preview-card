@@ -37,13 +37,17 @@
 <style>
 	.container {
 		background-color: var(--gray);
+		width: 20.25rem;
+		margin: 5.5rem auto;
 	}
-	@media screen and (min-width: 48.0625rem) {
+	@media screen and (min-width: 64rem) {
 		.container {
+			margin: 0;
 			display: grid;
 			place-content: center;
 			grid-auto-flow: column;
 			height: 100vh;
+			width: 100%;
 		}
 	}
 </style>

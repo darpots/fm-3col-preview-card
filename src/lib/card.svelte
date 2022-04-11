@@ -25,7 +25,12 @@
 		background-color: var(--bg);
 		padding: 3rem;
 	}
-
+	section:first-of-type {
+		border-radius: 0.5rem 0.5rem 0 0;
+	}
+	section:last-of-type {
+		border-radius: 0 0 0.5rem 0.5rem;
+	}
 	.container {
 		max-width: 14.4375rem;
 		margin: 0 auto;
@@ -70,7 +75,7 @@
 		border: 0.125rem var(--gray) solid;
 	}
 
-	@media screen and (min-width: 48.0625rem) {
+	@media screen and (min-width: 64rem) {
 		.container {
 			max-width: 13.25rem;
 		}
